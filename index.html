@@ -1,0 +1,153 @@
+<html>
+    <head>
+       <title>Q(2)</title>
+        <style>
+          .body-style{
+             font-family: sans-serif;
+             background-image:linear-gradient(to bottom right, white, #324960);
+          }
+   
+         .table-style{
+           border-radius: 5px;
+           font-size: 1.1em;
+           font-weight: normal;
+           border: none;
+           border-collapse: collapse;
+           width: 1100px;
+           background-color: white;
+         }
+   
+         .center{
+           margin-left:auto;
+           margin-right:auto;
+         }
+   
+     .table-style td {
+       text-align: left;
+       padding: 8px;
+     }
+   
+     .table-style th{
+       text-align:center;
+       padding:8px;
+     }
+   
+     .table-style td {
+       border: 1px solid #233443;
+       font-size: 1.0em;
+   }
+   
+   .table-style tbody tr:last-of-type{
+     border-bottom: 20px solid black;
+   }
+   
+   .table-style thead th {
+   color: #ffffff;
+   background: #324960;
+   }
+   
+   tbody .element-style{
+     text-align: center;
+     font-weight: bold;
+   }
+        </style>
+     </head>
+     <body class="body-style">
+       <h1 style="text-align:center;">Static webpage which defines all text formatting tags of HTML in tabular format</h1>
+       <div class="table-container">
+       <table class="table-style center">
+         <thead>
+           <tr>
+             <th colspan="3" style="text-align: center; background: black ;">Text Formatting Tags Of HTML</th>
+           </tr>
+           <tr>
+             <th>Tag Name</th>
+             <th>Element</th>
+             <th>Property</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td>Bold Text</td>
+             <td class="element-style">&ltb&gt</td>
+             <td>The HTML &ltb&gt element defines bold text, without any extra importance.</td>
+           </tr>
+           <tr>
+             <td>Important Text</td>
+             <td class="element-style">&ltstrong&gt</td>
+             <td>The HTML &ltstrong&gt element defines text with strong importance. The content inside is typically displayed in bold.</td>
+           </tr>
+           <tr>
+             <td>Italic Text</td>
+             <td class="element-style">&lti&gt</td>
+             <td>The HTML &lti&gt element defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.</td>
+           </tr>
+           <tr>
+             <td>Emphasized Text</td>
+             <td class="element-style">&ltem&gt</td>
+             <td>The HTML &ltem&gt element defines emphasized text. The content inside is typically displayed in italic.</td>
+           </tr>
+           <tr>
+             <td>Marked Text</td>
+             <td class="element-style">&ltmark&gt</td>
+             <td>The HTML &ltmark&gt element defines text that should be marked or highlighted</td>
+           </tr>
+           <tr>
+             <td>Smaller Text</td>
+             <td class="element-style">&ltsmall&gt</td>
+             <td>The HTML &ltsmall&gt element defines smaller text</td>
+           </tr>
+           <tr>
+             <td>Deleted Text</td>
+             <td class="element-style">&ltdel&gt</td>
+             <td>The HTML &ltdel&gt element defines text that has been deleted from a document. Browsers will usually strike a line through deleted text</td>
+           </tr>
+           <tr>
+             <td>Inserted Text</td>
+             <td class="element-style">&ltins&gt</td>
+             <td>The HTML &ltins&gt element defines a text that has been inserted into a document. Browsers will usually underline inserted text</td>
+           </tr>
+           <tr>
+             <td>Subscript Text</td>
+             <td class="element-style">&ltsub&gt</td>
+             <td>The HTML &ltsub&gt element defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H<sub>2</sub>O</td>
+           </tr>
+           <tr>
+             <td>Superscript Text</td>
+             <td class="element-style">&ltsup&gt</td>
+             <td>The HTML &ltsup&gt element defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW<sup>[1]</sup></td>
+           </tr>
+           <tr>
+             <td>Bi-Directional Isolation Text</td>
+             <td class="element-style">&ltbdi&gt</td>
+             <td>The &ltbdi&gt tag isolates a part of text that might be formatted in a different direction from other text outside it.
+   
+   This element is useful when embedding user-generated content with an unknown text direction.
+   
+   </td>
+           </tr>
+           <tr>
+             <td>Bi-Directional Override Text</td>
+             <td class="element-style">&ltbdo&gt</td>
+             <td>The &ltbdo&gt tag is used to override the current text direction.</td>
+           </tr>
+           <tr>
+             <td>Preformatted Text</td>
+             <td class="element-style">&ltpre&gt</td>
+             <td>Text in a &ltpre&gt element is displayed in a fixed-width font, and the text preserves both spaces and line breaks. The text will be displayed exactly as written in the HTML source code.</td>
+           </tr>
+           <tr>
+             <td>Text with a line through it</td>
+             <td class="element-style">&lts&gt</td>
+             <td>The &lts&gt tag specifies text that is no longer correct, accurate or relevant. The text will be displayed with a line through it.</td>
+           </tr>
+           <tr>
+             <td>Unarticulated Text</td>
+             <td class="element-style">&ltu&gt</td>
+             <td>The &ltu&gt tag represents some text that is unarticulated and styled differently from normal text, such as misspelled words or proper names in Chinese text. The content inside is typically displayed with an underline.</td>
+           </tr>
+         </tbody>
+       </table>
+       </div>
+     </body>
+   </html>
